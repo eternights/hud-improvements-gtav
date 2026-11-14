@@ -1,0 +1,15 @@
+# Extracted vanilla game files: large and copyrighted. Only manifests are tracked.
+vanilla/*
+!vanilla/*.json
+
+# Build output / release archives
+dist/
+*.zip
+*.oiv
+
+# Local analysis clone of the decompiled scaleforms repo
+_scaleforms/
+
+# Python
+__pycache__/
+*.pyc

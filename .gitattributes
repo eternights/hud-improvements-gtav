@@ -1,0 +1,5 @@
+# Scaleform assets are binary; never diff or line-ending convert them.
+*.gfx -text
+*.ytd -text
+*.dds -text
+*.png -text

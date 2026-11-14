@@ -1,0 +1,53 @@
+> **Progress: 8%** — 4 of 49 checkboxes done; 3 of 40 leaf tasks done (9 parent items still open).
+> Leaf tasks = items with no sub-items; a parent counts as done only when all its children are done.
+
+*(unprioritised)*
+- [ ] fix textile city sidewalk map![[Screenshot 2026-11-07 215533.png]]
+- [ ] see if the betweens of land and water on the map is already accurate, maybe make more meshes![[Screenshot 2026-11-07 215824.png]]
+- [ ] fix minimap cursor not going dark when in bush/new vehicle while wanted on ==🔴Online==![[Screenshot 2026-11-07 220039.png]]
+- [ ] make a new phone model for online character instead of reusing michael's ifruit![[Screenshot 2026-11-07 220119.png]]
+	- [ ] michael and online character's phones uses the same gfx
+	- [ ] whiz phone?
+- [ ] make oppressor mk2 (and other similar flying vehicles) to direction based rotating blip![[Screenshot 2026-11-07 221138.png]]
+- [ ] make interaction menu header gradient transparent![[Screenshot 2026-11-07 232557.png]]
+- [ ] **ultra-widescreen**
+	- [ ] make all websites support ultra widescreen![[Screenshot 2026-11-07 233146.png]]
+	- [ ] somehow move the hud ultrawide screen to the edges (21:9, 19.5:9), preferably without having to change the file each display resolution change
+- [ ] make alert screen black background invisible for visibility
+- [ ] improve the minimap fade
+	- [x] remove the light grey transparent rectangles from minimap
+	- [ ] , with smoother and high quality fade without banding, acting the fade/glow is a lighting ray traced, so it is reflected/blocked by the health bar below
+- [ ] **compability mods**
+	- [ ] community hud.gfx
+	- [ ] *radio stations*
+		- [x] PMR
+		- [ ] others
+	- [ ] weapon addons
+		- [ ] bonquet
+		- [ ] flame washer
+		- [ ] others
+- [x] bring back old gta v loading rings from june 2013 (https://x.com/_Player67_/status/2118743645129998772?a=xC4MEENgkAa4RiWYi5c&s=20)![[Pasted image 20261108003541.png]]
+	- [x] found a new version in hud-saving.gfx, only saving icon is different, only doing similar like socialclub icon without the spinning dot, planning to merge them both gradient moving and spinning dot
+	- [ ] update the old social club colour to rockstar games colour
+	- [ ] update the social club icon to sharp star icon, adopting the new social club rebrand  to rockstar games account (might be unnoticeable anyways)
+- [ ] credit everyone involved
+- [ ] new loading screens, at least for Online
+- [ ] bring back the old loading screen style, replacing the static new loading screens
+- [ ] bring back "mission passed" theme playing in opening_credits.gfx gta v logo like in PS3
+- [ ] bring back beta "mission passed" themes, and new ones for michael, dont like the sound...
+- [ ] fix loading rings having the same frame from the first in the last
+- [ ] fix rotating helicopter blade blips having the same frame from the first in the last
+- [ ] move the street and district road texts a bit up so it doesnt get cut off when having safezone size to 100%
+- [ ] fix police blips not in sync with minimap red and blue overlay
+- [ ] fix addon mansion (safehouse in the hills) minimap scaleforms colours not matching other buildings colours
+- [ ] fix red BEACON in cellphone-alert-popup way off to the center when playing in ultra-widescreen
+- [ ] improve the minimap (needs feedback)
+	- [ ] make the roads dark "for visibility"
+	- [ ] add fences/obstacles to the minimap
+- [ ] improve the png cursors to vector from usually separated desktop gfxs
+	- [ ] also improve the solid color vector cursors to gradient ones (maybe needs feedback on whether to separate them for accessibility or not)
+- [ ] improve the red/black stroke in minimap player cursor blip
+- [ ] improve the fist render in pause_menu_pages_weapons.gfx to diverse all skin colours (maybe simply grey)
+- [ ] improve online player render in player_switch.gfx to high definition and not cause the bug where it only gets the render from the first character, get the render from the latest character slot played in (renders seems to be either server-sided or hardcoded)
+- [ ] bring back the unused rampage.gfx to rampage mission passed
+- [ ] make the blips fade in on the minimap instead of popping up on the minimap, so it has the effect of the fade mask 

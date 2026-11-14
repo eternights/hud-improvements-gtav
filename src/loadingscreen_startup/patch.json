@@ -1,0 +1,30 @@
+{
+  "target": "update/update.rpf/x64/data/cdimages/scaleform_frontend.rpf/loadingscreen_startup.gfx",
+  "vanilla_build": "",
+  "base_sha256": "",
+  "summary": "Old 2013 loading/saving ring artwork using hud_saving_id as the gradient strip",
+  "changes": [
+    {
+      "kind": "image",
+      "image_id": 187,
+      "export_name": "hud_saving_id",
+      "file_name": "hud_saving_id.dds",
+      "target_width": 256,
+      "target_height": 8,
+      "bitmap_format": 14,
+      "art": "art/hud_saving_id.dds",
+      "dependent_characters": [16, 118, 182, 184, 186, 188],
+      "note": "New DefineExternalImage2 appended after the vanilla images 1-6, plus a matching ExportAssets entry. Keep idType 0 (ID from SWF) so character 187 is usable as a bitmap fill."
+    },
+    {
+      "kind": "bitmap-fill",
+      "from_image": 1,
+      "to_image": 187,
+      "note": "Gradient fill repointed from orange_grad to hud_saving_id."
+    },
+    {
+      "kind": "note",
+      "text": "Vanilla image table: 1 orange_grad, 2 loadingscreen_startup_i85, 3 GTAV_SavingSpinner_g, 4 GTAV_SavingSpinner_IB, 5 beach_fg, 6 beach_bg. New images must be named in the tag (exportName/fileName); an unnamed tag falls back to loadingscreen_startup_i<id> and renders white when missing."
+    }
+  ]
+}
