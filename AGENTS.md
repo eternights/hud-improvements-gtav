@@ -55,7 +55,13 @@ shadowed, so edits there do nothing.
 - **Blips**: the order of `getListOfBlips()` in
   `minimap.gfx/scripts/.../constants/Blips.as` is the sprite ID. `radar_police_ped`
   = 3, `radar_police` = 41, `radar_police_chase` = 42, `radar_police_heli` = 43.
-  Which sprite a blip uses is chosen by the game/script, not by the GFX.
+  Which sprite a blip uses is chosen by the game/script, not by the GFX; a
+  `SetBlipSprite` change needs a script, and engine-owned wanted blips cannot be
+  retargeted at all. Editing the GFX only changes what each ID looks like.
+- **The radar map, GPS line and player arrow are engine-rendered**, not movie
+  symbols. `minimap.gfx` contains no stealth/dark-arrow logic (its scripts only
+  handle health/armour, wanted stars, sonar and labels), so the grey arrow when
+  hiding is a game-side state that Online does not apply. Not fixable in a GFX.
 - Base-game (2013) `.gfx` are not decompiled anywhere; only Enhanced code exists.
 
 ## Rules
