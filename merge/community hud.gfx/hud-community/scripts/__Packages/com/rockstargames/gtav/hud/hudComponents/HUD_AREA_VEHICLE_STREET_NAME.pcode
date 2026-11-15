@@ -1,0 +1,558 @@
+ConstantPool "_global", "com", "Object", "rockstargames", "gtav", "hud", "hudComponents", "HUD_AREA_VEHICLE_STREET_NAME", "ON_SCREEN_DURATION", "ui", "HUD_COMPONENT", "prototype", "INITIALISE", "TIMELINE", "CONTENT", "BOUNDING_BOX", "_visible", "nameText", "textAutoSize", "shrink", "READY", "_alpha", "SET_AREA_NAME", "SET_NAME", "SET_STREET_NAME", "SET_VEHICLE_NAME", "text", "getTextFormat", "rightMargin", "setTextFormat", "SHOW", "FORCE_SHOW", "forceShow", "true", "onComplete", "STAY_ON_SCREEN", "onCompleteScope", "FADE_DURATION", "tweenStar", "TweenStarLite", "to", "HIDE", "delayCall", "REMOVE", "removeTweenOf", "_enumID", "_HUD", "REMOVE_HUD_ITEM", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Not
+Not
+If loc023c
+Push "_global"
+GetVariable
+Push "com"
+Push 0.0
+Push "Object"
+NewObject
+SetMember
+loc023c:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Not
+Not
+If loc027a
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+Push 0.0
+Push "Object"
+NewObject
+SetMember
+loc027a:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Not
+Not
+If loc02c4
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+Push 0.0
+Push "Object"
+NewObject
+SetMember
+loc02c4:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Not
+Not
+If loc031a
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+Push 0.0
+Push "Object"
+NewObject
+SetMember
+loc031a:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Not
+Not
+If loc037c
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+Push 0.0
+Push "Object"
+NewObject
+SetMember
+loc037c:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_AREA_VEHICLE_STREET_NAME"
+GetMember
+Not
+Not
+If loc0a59
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_AREA_VEHICLE_STREET_NAME"
+DefineFunction2 "", 0, 3, false, false, false, true, true, false, false, true, false {
+Push 0.0
+Push register2
+Push undefined
+CallMethod
+Pop
+Push register1
+Push "ON_SCREEN_DURATION"
+Push 4000
+SetMember
+}
+StoreRegister 1
+SetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_AREA_VEHICLE_STREET_NAME"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "hud"
+GetMember
+Push "HUD_COMPONENT"
+GetMember
+Extends
+Push register1
+Push "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2
+Push "INITIALISE"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "mc" {
+Push register1
+Push "TIMELINE"
+Push register1
+SetMember
+Push register1
+Push "CONTENT"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "CONTENT"
+GetMember
+SetMember
+Push register1
+Push "BOUNDING_BOX"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "BOUNDING_BOX"
+GetMember
+SetMember
+Push register1
+Push "BOUNDING_BOX"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Push register1
+Push "CONTENT"
+GetMember
+Push "nameText"
+GetMember
+Push "textAutoSize"
+Push "shrink"
+SetMember
+}
+SetMember
+Push register2
+Push "READY"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "id" {
+Push register3
+Push 1
+Push register2
+Push "READY"
+CallMethod
+Pop
+Push register1
+Push "CONTENT"
+GetMember
+Push "_alpha"
+Push 0.0
+SetMember
+}
+SetMember
+Push register2
+Push "SET_AREA_NAME"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "params" {
+Push register4
+Push 0.0
+GetMember
+StoreRegister 2
+Pop
+Push register4
+Push 1
+GetMember
+StoreRegister 3
+Pop
+Push register3
+Push register2
+Push 2
+InitArray
+Push 1
+Push register1
+Push "SET_NAME"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "SET_STREET_NAME"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "params" {
+Push register4
+Push 0.0
+GetMember
+StoreRegister 2
+Pop
+Push register4
+Push 1
+GetMember
+StoreRegister 3
+Pop
+Push register3
+Push register2
+Push 2
+InitArray
+Push 1
+Push register1
+Push "SET_NAME"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "SET_VEHICLE_NAME"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "params" {
+Push register4
+Push 0.0
+GetMember
+StoreRegister 2
+Pop
+Push register4
+Push 1
+GetMember
+StoreRegister 3
+Pop
+Push register3
+Push register2
+Push 2
+InitArray
+Push 1
+Push register1
+Push "SET_NAME"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "SET_NAME"
+DefineFunction2 "", 1, 7, false, false, true, false, true, false, false, true, false, 6, "params" {
+Push register6
+Push 0.0
+GetMember
+StoreRegister 5
+Pop
+Push register6
+Push 1
+GetMember
+StoreRegister 4
+Pop
+Push register4
+Push undefined
+Equals2
+Not
+Not
+If loc06f7
+Push register1
+Push "ON_SCREEN_DURATION"
+Push register4
+SetMember
+loc06f7:Push register1
+Push "CONTENT"
+GetMember
+Push "nameText"
+GetMember
+StoreRegister 2
+Pop
+Push register2
+Push "text"
+Push register5
+SetMember
+Push 0.0
+Push register2
+Push "getTextFormat"
+CallMethod
+StoreRegister 3
+Pop
+Push register3
+Push "rightMargin"
+Push 2
+SetMember
+Push register3
+Push 1
+Push register2
+Push "setTextFormat"
+CallMethod
+Pop
+Push 0.0
+Push register1
+Push "SHOW"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "FORCE_SHOW"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "_forceShow" {
+Push register1
+Push "forceShow"
+Push register2
+Push "true"
+Equals2
+SetMember
+}
+SetMember
+Push register2
+Push "SHOW"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push register1
+Push "forceShow"
+GetMember
+Not
+If loc07fa
+Push register1
+Push "CONTENT"
+GetMember
+Push "_alpha"
+Push 100
+SetMember
+Jump loc0876
+loc07fa:Push "_alpha"
+Push 100
+Push "onComplete"
+Push register1
+Push "STAY_ON_SCREEN"
+GetMember
+Push "onCompleteScope"
+Push register1
+Push 3
+InitObject
+Push register1
+Push "FADE_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+}
+loc0876:SetMember
+Push register2
+Push "STAY_ON_SCREEN"
+DefineFunction2 "", 0, 4, false, false, true, false, true, false, false, true, false {
+Push "onComplete"
+Push register1
+Push "HIDE"
+GetMember
+Push "onCompleteScope"
+Push register1
+Push 2
+InitObject
+Push register1
+Push "ON_SCREEN_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "delayCall"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "HIDE"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push "_alpha"
+Push 0.0
+Push "onComplete"
+Push register1
+Push "REMOVE"
+GetMember
+Push "onCompleteScope"
+Push register1
+Push 3
+InitObject
+Push register1
+Push "FADE_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "REMOVE"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1
+Push "CONTENT"
+GetMember
+Push 1
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "removeTweenOf"
+CallMethod
+Pop
+Push register1
+Push "_enumID"
+GetMember
+Push 1
+Push register1
+Push "_HUD"
+GetMember
+Push "REMOVE_HUD_ITEM"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "forceShow"
+Push false
+SetMember
+Push 1
+Push null
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_AREA_VEHICLE_STREET_NAME"
+GetMember
+Push "prototype"
+GetMember
+Push 3
+Push "ASSetPropFlags"
+CallFunction
+loc0a59:Pop

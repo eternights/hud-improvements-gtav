@@ -1,0 +1,3017 @@
+ConstantPool "_global", "com", "Object", "rockstargames", "gtav", "hud", "hudComponents", "HUD_WEAPON_ICON", "IS_AIMING", "ON_SCREEN_DURATION", "gfxExtensions", "ui", "HUD_COMPONENT", "prototype", "INITIALISE", "TIMELINE", "CONTENT", "BOUNDING_BOX", "_visible", "hudColourRed", "utils", "HudColour", "r", "g", "b", "getTopCompOffset", "getBottomCompOffset", "READY", "setAsActive", "WEAPON_ICONS", "ammoText", "ammo", "clipCountText", "clipCounter", "ammoStrokeTF", "ammoStroke", "clipCountStrokeTF", "clipCounterStroke", "ammoIcon", "outline", "_alpha", "defaultX", "_x", "defaultY", "_y", "ProgressBarMC", "animMC", "gotoAndStop", "SET_WEAPONS_AND_AMMO_FOREVER", "Boolean", "STAY_ON_SCREEN", "fadeInAndDoNothing", "isFadingIn", "FADE_DURATION", "tweenStar", "TweenStarLite", "to", "SHOW_GRENADE_DROP", "SET_WEAPON_TIMER", "Math", "min", "max", "weaponId", "constants", "WeaponsLUT", "WEAPON_STUNGUN", "WEAPON_THROWN_GRENADE", "round", "setAmmoStateForGrenade", "HUD_COLOUR_WHITE", "Colour", "ApplyHudColour", "IS_RED", "Colourise", "SET_AMMO_COUNT", "WEAPON_UNARMED", "WEAPON_OBJECT", "WEAPON_WRENCH", "WEAPON_SHOVEL", "WEAPON_NIGHTSTICK", "WEAPON_LASSO", "WEAPON_KNIFE", "WEAPON_HAMMER", "WEAPON_CROWBAR", "WEAPON_BAT", "WEAPON_GOLFCLUB", "WEAPON_BOTTLE", "WEAPON_DAGGER", "WEAPON_HATCHET", "WEAPON_KNUCKLE", "WEAPON_MACHETE", "WEAPON_FLASHLIGHT", "WEAPON_POOLCUE", "WEAPON_BATTLEAXE", "WEAPON_STONE_HATCHET", "WEAPON_CAR_MACHINE_GUN", "VEHICLE_WEAPON_TRAILER_QUADMG", "VEHICLE_WEAPON_NIGHTSHARK_MG", "VEHICLE_WEAPON_ARDENT_MG", "VEHICLE_WEAPON_APC_MG", "VEHICLE_WEAPON_DUNE_MINIGUN", "VEHICLE_WEAPON_DUNE_MG", "VEHICLE_WEAPON_TAMPA_DUALMINIGUN", "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN", "VEHICLE_WEAPON_VOLATOL_BOMBS", "VEHICLE_WEAPON_BRUTUS2_50CAL_LASER", "VEHICLE_WEAPON_BRUTUS_50CAL", "VEHICLE_WEAPON_IMPALER3_50CAL_LASER", "VEHICLE_WEAPON_SLAMVAN5_50CAL_laser", "VEHICLE_WEAPON_ZR3802_50CAL_LASER", "VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER", "VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER", "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER", "VEHICLE_WEAPON_ISSI5_50CAL_LASER", "VEHICLE_WEAPON_BRUISER2_50CAL_LASER", "VEHICLE_WEAPON_SCARAB2_50CAL_LASER", "VEHICLE_WEAPON_FLAMETHROWER_SCIFI", "VEHICLE_WEAPON_FLAMETHROWER", "VEHICLE_WEAPON_MONSTER3_GLKIN", "VEHICLE_WEAPON_MONSTER3_GLSMO", "VEHICLE_WEAPON_MORTAR_SMOKE", "VEHICLE_WEAPON_MORTAR_KINETIC", "VEHICLE_WEAPON_MORTAR_EXPLOSIVE", "VEHICLE_WEAPON_SLAMVAN4_50CAL", "VEHICLE_WEAPON_IMPALER2_MG", "VEHICLE_WEAPON_IMPALER2_50CAL", "VEHICLE_WEAPON_SLAMVAN4_MG", "VEHICLE_WEAPON_ZR380_MG", "VEHICLE_WEAPON_ZR380_50CAL", "VEHICLE_WEAPON_DOMINATOR4_50CAL", "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN", "VEHICLE_WEAPON_IMPERATOR_50CAL", "VEHICLE_WEAPON_ISSI4_50CAL", "VEHICLE_WEAPON_BRUISER_50CAL", "VEHICLE_WEAPON_SCARAB_50CAL", "VEHICLE_WEAPON_VAMOS2_MG", "WEAPON_CANDY_CANE", "WEAPON_FIRE_EXTINGUISHER", "WEAPON_JERRY_CAN", "WEAPON_HAZARDCAN", "WEAPON_FERTILIZERCAN", "text", "", "floor", "setTextFields", "setAmmoIcon", "isWeaponWheelActive", "SHOW", "marginForBlur", "-1", "-2", "WEAPON_HEAVY_MINIGUN", "WEAPON_RAYMINIGUN", "WEAPON_RAYCARBINE", "autoSize", "left", "multiline", "wordWrap", "_width", "textWidth", "currAmmoType", "AMMO", "_currentframe", "SET_PLAYER_WEAPON", "ONSCREEN", "isAnimating", "onCompleteScope", "onComplete", "HIDE", "REMOVE", "removeTweenOf", "ACTIVE_STATE", "_enumID", "_HUD", "REMOVE_HUD_ITEM", "game", "GameInterface", "HUD_TYPE", "SET_ACTIVE_STATE", "call", "ASSetPropFlags"
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Not
+Not
+If loc0b77
+Push "_global"
+GetVariable
+Push "com"
+Push 0
+Push "Object"
+NewObject
+SetMember
+loc0b77:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Not
+Not
+If loc0bb1
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+Push 0
+Push "Object"
+NewObject
+SetMember
+loc0bb1:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Not
+Not
+If loc0bf7
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+Push 0
+Push "Object"
+NewObject
+SetMember
+loc0bf7:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Not
+Not
+If loc0c49
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+Push 0
+Push "Object"
+NewObject
+SetMember
+loc0c49:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Not
+Not
+If loc0ca7
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+Push 0
+Push "Object"
+NewObject
+SetMember
+loc0ca7:Pop
+Push "_global"
+GetVariable
+Push "com"
+GetMember
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_WEAPON_ICON"
+GetMember
+Not
+Not
+If loc34f2
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_WEAPON_ICON"
+DefineFunction2 "", 0, 4, false, false, false, true, true, false, false, true, true {
+Push 0
+Push register2
+Push undefined
+CallMethod
+Pop
+Push register1
+Push "IS_AIMING"
+Push false
+SetMember
+Push register1
+Push "ON_SCREEN_DURATION"
+Push 5000
+SetMember
+Push register3
+Push "gfxExtensions"
+Push true
+SetMember
+}
+StoreRegister 1
+SetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_WEAPON_ICON"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "hud"
+GetMember
+Push "HUD_COMPONENT"
+GetMember
+Extends
+Push register1
+Push "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2
+Push "INITIALISE"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "mc" {
+Push register1
+Push "TIMELINE"
+Push register1
+SetMember
+Push register1
+Push "CONTENT"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "CONTENT"
+GetMember
+SetMember
+Push register1
+Push "BOUNDING_BOX"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "BOUNDING_BOX"
+GetMember
+SetMember
+Push register1
+Push "BOUNDING_BOX"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Push register1
+Push "hudColourRed"
+Push 0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "utils"
+GetMember
+Push "HudColour"
+NewMethod
+SetMember
+Push register1
+Push "hudColourRed"
+GetMember
+Push "r"
+Push 194
+SetMember
+Push register1
+Push "hudColourRed"
+GetMember
+Push "g"
+Push 80
+SetMember
+Push register1
+Push "hudColourRed"
+GetMember
+Push "b"
+Push 80
+SetMember
+}
+SetMember
+Push register2
+Push "getTopCompOffset"
+DefineFunction "", 0 {
+Push -2
+Return
+}
+SetMember
+Push register2
+Push "getBottomCompOffset"
+DefineFunction "", 0 {
+Push -4
+Return
+}
+SetMember
+Push register2
+Push "READY"
+DefineFunction2 "", 1, 4, false, false, false, true, true, false, false, true, false, 3, "id" {
+Push register3
+Push 1
+Push register2
+Push "READY"
+CallMethod
+Pop
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "WEAPON_ICONS"
+Push register1
+Push "CONTENT"
+GetMember
+SetMember
+Push register1
+Push "ammoText"
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ammo"
+GetMember
+SetMember
+Push register1
+Push "clipCountText"
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "clipCounter"
+GetMember
+SetMember
+Push register1
+Push "ammoStrokeTF"
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ammoStroke"
+GetMember
+SetMember
+Push register1
+Push "clipCountStrokeTF"
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "clipCounterStroke"
+GetMember
+SetMember
+Push register1
+Push "ammoIcon"
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ammoIcon"
+GetMember
+SetMember
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "outline"
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "outline"
+Push 15
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1
+Push "CONTENT"
+GetMember
+Push "_alpha"
+Push 0
+SetMember
+Push register1
+Push "defaultX"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "_x"
+GetMember
+SetMember
+Push register1
+Push "defaultY"
+Push register1
+Push "TIMELINE"
+GetMember
+Push "_y"
+GetMember
+SetMember
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Push 101
+Push 1
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "animMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "SET_WEAPONS_AND_AMMO_FOREVER"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "params" {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "IS_AIMING"
+Push register2
+Push 0
+GetMember
+Push 1
+Push "Boolean"
+CallFunction
+SetMember
+Push register1
+Push "IS_AIMING"
+GetMember
+Not
+Not
+If loc111c
+Push 0
+Push register1
+Push "STAY_ON_SCREEN"
+CallMethod
+Pop
+}
+loc111c:SetMember
+Push register2
+Push "fadeInAndDoNothing"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push register1
+Push "isFadingIn"
+GetMember
+Not
+Not
+If loc11b6
+Push register1
+Push "isFadingIn"
+Push true
+SetMember
+Push "_alpha"
+Push 100
+Push 1
+InitObject
+Push register1
+Push "FADE_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+}
+loc11b6:SetMember
+Push register2
+Push "SHOW_GRENADE_DROP"
+DefineFunction "", 1, "params"  {
+}
+SetMember
+Push register2
+Push "SET_WEAPON_TIMER"
+DefineFunction2 "", 1, 5, false, false, true, false, true, false, false, true, false, 4, "params" {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register4
+Push 0
+GetMember
+StoreRegister 3
+Pop
+Push 1
+Push 100
+Push register3
+Push 2
+Push "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 0
+Push 2
+Push "Math"
+GetVariable
+Push "max"
+CallMethod
+Add2
+StoreRegister 2
+Pop
+Push register1
+Push "weaponId"
+GetMember
+StoreRegister 0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_STUNGUN"
+GetMember
+StrictEquals
+If loc12cd
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_THROWN_GRENADE"
+GetMember
+StrictEquals
+If loc1340
+Jump loc1638
+loc12cd:Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+Push true
+SetMember
+Push 101
+Push register2
+Subtract
+Push 1
+Push "Math"
+GetVariable
+Push "round"
+CallMethod
+StoreRegister 2
+Pop
+Push register2
+Push 1
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "animMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc1638
+loc1340:Push 101
+Push register2
+Subtract
+StoreRegister 2
+Pop
+Push register2
+Push 100
+Equals2
+Not
+If loc1385
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc1385:Push register2
+Push 98
+Less2
+Not
+PushDuplicate
+Not
+If loc13ab
+Pop
+Push register2
+Push 99
+Greater
+Not
+loc13ab:Not
+If loc13cf
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc13cf:Push register2
+Push 92
+Less2
+Not
+PushDuplicate
+Not
+If loc13f5
+Pop
+Push register2
+Push 94
+Greater
+Not
+loc13f5:Not
+If loc1419
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc1419:Push register2
+Push 85
+Less2
+Not
+PushDuplicate
+Not
+If loc143f
+Pop
+Push register2
+Push 88
+Greater
+Not
+loc143f:Not
+If loc1463
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc1463:Push register2
+Push 77
+Less2
+Not
+PushDuplicate
+Not
+If loc1489
+Pop
+Push register2
+Push 80
+Greater
+Not
+loc1489:Not
+If loc14ad
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc14ad:Push register2
+Push 67
+Less2
+Not
+PushDuplicate
+Not
+If loc14d3
+Pop
+Push register2
+Push 71
+Greater
+Not
+loc14d3:Not
+If loc14f7
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc14f7:Push register2
+Push 56
+Less2
+Not
+PushDuplicate
+Not
+If loc151d
+Pop
+Push register2
+Push 61
+Greater
+Not
+loc151d:Not
+If loc1541
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc1541:Push register2
+Push 43
+Less2
+Not
+PushDuplicate
+Not
+If loc1567
+Pop
+Push register2
+Push 49
+Greater
+Not
+loc1567:Not
+If loc158b
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc158b:Push register2
+Push 27
+Less2
+Not
+PushDuplicate
+Not
+If loc15b1
+Pop
+Push register2
+Push 35
+Greater
+Not
+loc15b1:Not
+If loc15d5
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc15d5:Push register2
+Push 8
+Less2
+Not
+PushDuplicate
+Not
+If loc15fb
+Pop
+Push register2
+Push 18
+Greater
+Not
+loc15fb:Not
+If loc161f
+Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+Jump loc1638
+loc161f:Push false
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+}
+loc1638:SetMember
+Push register2
+Push "setAmmoStateForGrenade"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "isStandard" {
+Push register2
+Not
+If loc16d6
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "utils"
+GetMember
+Push "HudColour"
+GetMember
+Push "HUD_COLOUR_WHITE"
+GetMember
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push 2
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "utils"
+GetMember
+Push "Colour"
+GetMember
+Push "ApplyHudColour"
+CallMethod
+Pop
+Push register1
+Push "IS_RED"
+Push false
+SetMember
+Jump loc1763
+loc16d6:Push register1
+Push "IS_RED"
+GetMember
+Not
+Not
+If loc1763
+Push register1
+Push "hudColourRed"
+GetMember
+Push "b"
+GetMember
+Push register1
+Push "hudColourRed"
+GetMember
+Push "g"
+GetMember
+Push register1
+Push "hudColourRed"
+GetMember
+Push "r"
+GetMember
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push 4
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "utils"
+GetMember
+Push "Colour"
+GetMember
+Push "Colourise"
+CallMethod
+Pop
+Push register1
+Push "IS_RED"
+Push true
+SetMember
+}
+loc1763:SetMember
+Push register2
+Push "SET_AMMO_COUNT"
+DefineFunction2 "", 1, 6, false, false, true, false, true, false, false, true, false, 2, "params" {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "weaponId"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_STUNGUN"
+GetMember
+Equals2
+If loc17d4
+Push false
+Jump loc17d9
+loc17d4:Push true
+loc17d9:StoreRegister 5
+Pop
+Push register5
+Not
+Not
+If loc180b
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Jump loc186a
+loc180b:Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+GetMember
+Not
+Not
+If loc186a
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+Push true
+SetMember
+Push 0
+Push 1
+InitArray
+Push 1
+Push register1
+Push "SET_WEAPON_TIMER"
+CallMethod
+Pop
+loc186a:Push register1
+Push "weaponId"
+GetMember
+StoreRegister 0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_STUNGUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_UNARMED"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_OBJECT"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_WRENCH"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_SHOVEL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_NIGHTSTICK"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_LASSO"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_KNIFE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_HAMMER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_CROWBAR"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_BAT"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_GOLFCLUB"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_BOTTLE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_DAGGER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_HATCHET"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_KNUCKLE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_MACHETE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_FLASHLIGHT"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_POOLCUE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_BATTLEAXE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_STONE_HATCHET"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_CAR_MACHINE_GUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TRAILER_QUADMG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_NIGHTSHARK_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ARDENT_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_APC_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DUNE_MINIGUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DUNE_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TAMPA_DUALMINIGUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_VOLATOL_BOMBS"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_BRUTUS2_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_BRUTUS_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_IMPALER3_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_SLAMVAN5_50CAL_laser"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ZR3802_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ISSI5_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_BRUISER2_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_SCARAB2_50CAL_LASER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_FLAMETHROWER_SCIFI"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_FLAMETHROWER"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_MONSTER3_GLKIN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_MONSTER3_GLSMO"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_MORTAR_SMOKE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_MORTAR_KINETIC"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_MORTAR_EXPLOSIVE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_SLAMVAN4_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_IMPALER2_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_IMPALER2_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_SLAMVAN4_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ZR380_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ZR380_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DOMINATOR4_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_IMPERATOR_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_ISSI4_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_BRUISER_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_SCARAB_50CAL"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_VAMOS2_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_CANDY_CANE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_CANDYCANE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_FLOWER_BOUQUET"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DELUXO2_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DELUXO2_MG_RED"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_DELUXO2_RAY"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TORERO2_MISSILE"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TORERO2_MG"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TORERO2_MG_RED"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "VEHICLE_WEAPON_TORERO2_RAY"
+GetMember
+StrictEquals
+If loc2750
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_FIRE_EXTINGUISHER"
+GetMember
+StrictEquals
+If loc27cb
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_JERRY_CAN"
+GetMember
+StrictEquals
+If loc27cb
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_HAZARDCAN"
+GetMember
+StrictEquals
+If loc27cb
+Push register0
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_FERTILIZERCAN"
+GetMember
+StrictEquals
+If loc27cb
+Jump loc28d2
+loc2750:Push register1
+Push "ammoText"
+GetMember
+Push "text"
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "text"
+Push ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "text"
+Push ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Jump loc2934
+loc27cb:Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Push register2
+Push 1
+GetMember
+Push register2
+Push 2
+GetMember
+Divide
+Push 100
+Multiply
+StoreRegister 4
+Pop
+Push 100
+Push register4
+Push 2
+Push "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 0
+Push 2
+Push "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 1
+Push "Math"
+GetVariable
+Push "floor"
+CallMethod
+StoreRegister 3
+Pop
+Push register3
+Push 1
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push "ProgressBarMC"
+GetMember
+Push "animMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push ""
+Push ""
+Push register3
+ToString
+Push 3
+Push register1
+Push "setTextFields"
+CallMethod
+Pop
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_visible"
+Push false
+SetMember
+Jump loc2934
+loc28d2:Push register2
+Push 2
+GetMember
+Push register2
+Push 1
+GetMember
+ToString
+Push register2
+Push 0
+GetMember
+ToString
+Push 3
+Push register1
+Push "setTextFields"
+CallMethod
+Pop
+Push register2
+Push 3
+GetMember
+Push 1
+Push register1
+Push "setAmmoIcon"
+CallMethod
+Pop
+loc2934:Push register1
+Push "isWeaponWheelActive"
+GetMember
+Push false
+Equals2
+Not
+If loc295f
+Push 0
+Push register1
+Push "SHOW"
+CallMethod
+Pop
+}
+loc295f:SetMember
+Push register2
+Push "setTextFields"
+DefineFunction2 "", 3, 6, false, false, true, false, true, false, false, true, false, 3, "ammoCount", 4, "clipCount", 5, "clipSize" {
+Push register5
+Push 1
+Greater
+Not
+Not
+If loc29c5
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+Jump loc29db
+loc29c5:Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push register4
+SetMember
+loc29db:Push register1
+Push "ammoText"
+GetMember
+Push "text"
+Push register3
+SetMember
+Push register1
+Push "marginForBlur"
+Push 3
+SetMember
+Push register3
+Push "-1"
+Equals2
+Not
+If loc2a52
+Push register4
+Push "-1"
+Equals2
+Not
+If loc2a3c
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2a3c:Push register1
+Push "ammoText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2a52:Push register3
+Push "-2"
+Equals2
+Not
+If loc2aa0
+Push register1
+Push "ammoText"
+GetMember
+Push "text"
+Push ""
+SetMember
+Push register4
+Push "-1"
+Equals2
+Not
+If loc2aa0
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2aa0:Push register1
+Push "weaponId"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_HEAVY_MINIGUN"
+GetMember
+Equals2
+Not
+If loc2aec
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2aec:Push register1
+Push "weaponId"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_RAYMINIGUN"
+GetMember
+Equals2
+Not
+If loc2b38
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2b38:Push register1
+Push "weaponId"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_RAYCARBINE"
+GetMember
+Equals2
+Not
+If loc2b84
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2b84:Push register1
+Push "weaponId"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "constants"
+GetMember
+Push "WeaponsLUT"
+GetMember
+Push "WEAPON_FLAMETHROWER"
+GetMember
+Equals2
+Not
+If loc2be3
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+Push ""
+SetMember
+loc2be3:Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "autoSize"
+Push "left"
+SetMember
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "multiline"
+Push false
+SetMember
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "wordWrap"
+Push false
+SetMember
+Push register1
+Push "clipCountText"
+GetMember
+Push "autoSize"
+Push "left"
+SetMember
+Push register1
+Push "clipCountText"
+GetMember
+Push "multiline"
+Push false
+SetMember
+Push register1
+Push "clipCountText"
+GetMember
+Push "wordWrap"
+Push false
+SetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "autoSize"
+Push "left"
+SetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "multiline"
+Push false
+SetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "wordWrap"
+Push false
+SetMember
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "autoSize"
+Push "left"
+SetMember
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "multiline"
+Push false
+SetMember
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "wordWrap"
+Push false
+SetMember
+Push register1
+Push "isWeaponWheelActive"
+GetMember
+Not
+If loc2d6e
+Push register1
+Push "clipCountText"
+GetMember
+Push "_x"
+Push 0
+Push register1
+Push "clipCountText"
+GetMember
+Push "_width"
+GetMember
+Subtract
+Push register1
+Push "marginForBlur"
+GetMember
+Push 0.5
+Multiply
+Subtract
+SetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "_x"
+Push register1
+Push "marginForBlur"
+GetMember
+Push 0.5
+Multiply
+SetMember
+Jump loc2e3d
+loc2d6e:Push register1
+Push "BOUNDING_BOX"
+GetMember
+Push "_width"
+GetMember
+StoreRegister 2
+Pop
+Push register1
+Push "clipCountText"
+GetMember
+Push "_x"
+Push register2
+Push register1
+Push "clipCountText"
+GetMember
+Push "textWidth"
+GetMember
+Subtract
+Push register1
+Push "marginForBlur"
+GetMember
+Subtract
+SetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "_x"
+Push register1
+Push "clipCountText"
+GetMember
+Push "_x"
+GetMember
+Push register1
+Push "ammoText"
+GetMember
+Push "_width"
+GetMember
+Subtract
+SetMember
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+GetMember
+Push ""
+Equals2
+Not
+If loc2e3d
+Push register1
+Push "ammoText"
+GetMember
+Push "_x"
+Push register2
+Push register1
+Push "ammoText"
+GetMember
+Push "textWidth"
+GetMember
+Subtract
+Push register1
+Push "marginForBlur"
+GetMember
+Subtract
+SetMember
+loc2e3d:Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "_x"
+Push register1
+Push "ammoText"
+GetMember
+Push "_x"
+GetMember
+SetMember
+Push register1
+Push "ammoStrokeTF"
+GetMember
+Push "text"
+Push register1
+Push "ammoText"
+GetMember
+Push "text"
+GetMember
+SetMember
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "_x"
+Push register1
+Push "clipCountText"
+GetMember
+Push "_x"
+GetMember
+SetMember
+Push register1
+Push "clipCountStrokeTF"
+GetMember
+Push "text"
+Push register1
+Push "clipCountText"
+GetMember
+Push "text"
+GetMember
+SetMember
+}
+SetMember
+Push register2
+Push "setAmmoIcon"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "ammoType" {
+Push register1
+Push "currAmmoType"
+GetMember
+Push register2
+Equals2
+Not
+Not
+If loc2fbd
+Push register1
+Push "currAmmoType"
+Push register2
+SetMember
+Push 1
+Push 1
+Push register1
+Push "ammoIcon"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "AMMO"
+Push register2
+Add2
+Push 1
+Push register1
+Push "ammoIcon"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_x"
+Push register1
+Push "ammoText"
+GetMember
+Push "_x"
+GetMember
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_width"
+GetMember
+Subtract
+Push 6
+Subtract
+SetMember
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_visible"
+Push register1
+Push "ammoIcon"
+GetMember
+Push "_currentframe"
+GetMember
+Push 1
+Equals2
+Not
+SetMember
+}
+loc2fbd:SetMember
+Push register2
+Push "SET_PLAYER_WEAPON"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 3, "params" {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "weaponId"
+Push register3
+Push 0
+GetMember
+SetMember
+Push register3
+Push 1
+GetMember
+StoreRegister 2
+Pop
+Push register2
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_WEAPON_ICON"
+GetMember
+Push "ONSCREEN"
+GetMember
+Equals2
+Not
+If loc3083
+Push register1
+Push "CONTENT"
+GetMember
+Push "_alpha"
+Push 100
+SetMember
+Push 0
+Push register1
+Push "STAY_ON_SCREEN"
+CallMethod
+Pop
+Jump loc3097
+loc3083:Push 0
+Push register1
+Push "SHOW"
+CallMethod
+Pop
+loc3097:Push true
+Push 1
+Push register1
+Push "setAmmoStateForGrenade"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "SHOW"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "isAnimating"
+GetMember
+Not
+Not
+If loc3178
+Push register1
+Push "isAnimating"
+Push true
+SetMember
+Push "_alpha"
+Push 100
+Push "onCompleteScope"
+Push register1
+Push "onComplete"
+Push register1
+Push "STAY_ON_SCREEN"
+GetMember
+Push 3
+InitObject
+Push register1
+Push "FADE_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+}
+loc3178:SetMember
+Push register2
+Push "STAY_ON_SCREEN"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push register1
+Push "IS_AIMING"
+GetMember
+Push false
+Equals2
+Not
+If loc3235
+Push "_alpha"
+Push 100
+Push "onCompleteScope"
+Push register1
+Push "onComplete"
+Push register1
+Push "HIDE"
+GetMember
+Push 3
+InitObject
+Push register1
+Push "ON_SCREEN_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+loc3235:Push register1
+Push "isAnimating"
+Push false
+SetMember
+}
+SetMember
+Push register2
+Push "HIDE"
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, false, true, false {
+Push 0
+Push register1
+Push "setAsActive"
+CallMethod
+Pop
+Push "_alpha"
+Push 0
+Push "onCompleteScope"
+Push register1
+Push "onComplete"
+Push register1
+Push "REMOVE"
+GetMember
+Push 3
+InitObject
+Push register1
+Push "FADE_DURATION"
+GetMember
+Push 1000
+Divide
+Push register1
+Push "CONTENT"
+GetMember
+Push 3
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "to"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "REMOVE"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1
+Push "CONTENT"
+GetMember
+Push 1
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "removeTweenOf"
+CallMethod
+Pop
+Push register1
+Push "WEAPON_ICONS"
+GetMember
+Push 1
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "tweenStar"
+GetMember
+Push "TweenStarLite"
+GetMember
+Push "removeTweenOf"
+CallMethod
+Pop
+Push register1
+Push "ACTIVE_STATE"
+Push false
+SetMember
+Push register1
+Push "_enumID"
+GetMember
+Push 1
+Push register1
+Push "_HUD"
+GetMember
+Push "REMOVE_HUD_ITEM"
+CallMethod
+Pop
+}
+SetMember
+Push register2
+Push "setAsActive"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1
+Push "ACTIVE_STATE"
+GetMember
+Not
+Not
+If loc344a
+Push register1
+Push "ACTIVE_STATE"
+Push true
+SetMember
+Push register1
+Push "ACTIVE_STATE"
+GetMember
+Push register1
+Push "_enumID"
+GetMember
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "game"
+GetMember
+Push "GameInterface"
+GetMember
+Push "HUD_TYPE"
+GetMember
+Push "SET_ACTIVE_STATE"
+Push 4
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "ui"
+GetMember
+Push "game"
+GetMember
+Push "GameInterface"
+GetMember
+Push "call"
+CallMethod
+Pop
+}
+loc344a:SetMember
+Push register2
+Push "isAnimating"
+Push false
+SetMember
+Push register2
+Push "isFadingIn"
+Push false
+SetMember
+Push register2
+Push "isWeaponWheelActive"
+Push false
+SetMember
+Push register2
+Push "IS_RED"
+Push false
+SetMember
+Push register2
+Push "ACTIVE_STATE"
+Push false
+SetMember
+Push register1
+Push "ONSCREEN"
+Push 7
+SetMember
+Push 1
+Push null
+Push "com"
+GetVariable
+Push "rockstargames"
+GetMember
+Push "gtav"
+GetMember
+Push "hud"
+GetMember
+Push "hudComponents"
+GetMember
+Push "HUD_WEAPON_ICON"
+GetMember
+Push "prototype"
+GetMember
+Push 3
+Push "ASSetPropFlags"
+CallFunction
+loc34f2:Pop
