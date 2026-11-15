@@ -1,0 +1,23 @@
+This folder contains non-essential options. You don't have to install any of those, but they're here for those who might be interested.
+
+---------------------------------------------------
+
+Current optionals:
+
+
+- Beta radio icons
+-- contains hud.ytd with it applied. "textures for manual install" folder contains the... well, textures for manual install, that go into hud.ytd, if you already have your own customizations applied to hud.ytd and don't want to overwrite them.
+-- Adjusts the following icons to their confirmed beta variants:
+--- Soulwax FM			(source: Gen7 unused radio texture sheet)
+--- West Coast Classics		(source: Developer portfolio showing beta UI elements)
+--- Vinewood Boulevard Radio	(source: Developer portfolio showing beta UI elements, NOTE: PMR is its own radio)
+--- Radio Los Santos		(source: Developer portfolio showing beta UI elements)
+--- The Blue Ark		(source: Developer portfolio showing beta UI elements)
+--- Worldwide FM		(source: Developer portfolio showing beta UI elements)
+--- Space 103.2			(source: Developer portfolio showing beta UI elements)
+
+
+- V Airwaves trackID
+-- contains various corrections and adjustments to original Rockstar trackID entries, as part of the V Airwaves mod.
+-- this will overwrite the regular community trackID, so no need to worry if you've already installed the regular one.
+-- manual and automatic (.oiv) options provided.
